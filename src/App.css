@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #61dafb;
+}
+
+#booksContainer {
+  float: right;
+  width: 60vh;
+}
+
+.authorName {
+  color: chocolate;
+  font-size: 1.25rem;
+}
+
+h2 {
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
